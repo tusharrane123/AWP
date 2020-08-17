@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="form.js"></script>
+</head>
+<body>
+    <form>
+    <h3>Email</h3>
+    <input type="email" placeholder="abc@gmail.com" pattern="/^[a-z0-9A-Z]+@[a-z0-9]+ .com $/" required>
+    
+     <h3>Password</h3> 
+    <input type="password" placeholder="Enter password" id="pass" minlength="5" maxlength="10">
+
+    <h3>Confirm Password</h3>
+    <input type="password" placeholder="cnfm password" id="cnfmpass" minlength="5" maxlength="10">
+
+    <input type="submit" id="id2" value="submit" onclick="validate()">
+</form>
+</body>
+</html>

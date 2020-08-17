@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+
+    }
+.container{
+    height: 100%;
+    width: 100%;
+    }
+    .container input[type="button"]
+    {
+    background:blue;
+    border:none;
+    outline:none;
+    color:#fff;
+    background:#03a9f4 ;
+    padding:10px 20px;
+    border-radius: 5px;
+ }
